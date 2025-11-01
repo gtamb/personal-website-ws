@@ -1,10 +1,11 @@
 import {Navbar, Nav, Container, NavbarCollapse} from "react-bootstrap";
 import { Link} from "react-router-dom";
+import "./NavigationBar.css";
 
 const NavigationBar = () => {
     return (
     
-        <Navbar expand="lg" sticky="top">
+        <Navbar expand="lg" sticky="top" className="custom-navbar">
             <Container>
                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                     <Navbar.Collapse id ="baisc-navbar-nav">
