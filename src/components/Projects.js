@@ -8,7 +8,6 @@ const Projects = () => {
             description: "A 3D platformer game where the player must navigate a crumbling lab to reach safety.  ",
             tech: "Unity, C#",
             link: "https://github.com/gtamb/plant-horror",
-            itchio: "https://gtamb.itch.io/reach-the-mother"
         },
         {
             name: "Personal Portfolio Website",
@@ -49,9 +48,6 @@ const Projects = () => {
             tech: "Python", 
             link: "https://github.com/gtamb/WebServerCollection"
 
-        }, 
-        {
-            
         }
 
     ];
