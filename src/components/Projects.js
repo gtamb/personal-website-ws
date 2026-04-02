@@ -11,7 +11,7 @@ const Projects = () => {
         },
         {
             name: "Personal Portfolio Website",
-            description: "A responsive website to showcase my skills",
+            description: "A responsive website to showcase my projects and skills.",
             tech: "React, CSS, React router",
             link: "https://github.com/gtamb/personal-website-ws"
         },
@@ -48,6 +48,25 @@ const Projects = () => {
             tech: "Python", 
             link: "https://github.com/gtamb/WebServerCollection"
 
+        }, 
+        {
+            name: "MultiThreaded Airport Line Simulation",
+            description: "Multi-threaded scheduling system to manage airport customers based on airport class, arrival time, and service durations.", 
+            tech: "C, Pthreads", 
+            link: "https://github.com/gtamb/AirportLine"
+            
+        }, 
+        {
+            name: "Swimming Fish Animation", 
+            description: "A scene utilizing hierarchical transformations to create smooth real-time synchronized animations.", 
+            tech: "Javascript, OpenGL", 
+            link: "https://github.com/gtamb/fish_project"
+        }, 
+        {
+            name: "Battleship Game", 
+            description: "A command-line version of the classic Battleship game.",
+            tech: "C++", 
+            link: "https://github.com/gtamb/battleship"
         }
 
     ];
